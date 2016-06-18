@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0A68151A7B2D2D004FEAB5 /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0A68141A7B2D2D004FEAB5 /* NSTimer+Block.m */; };
+		EF2C08B71A5D90B300FB6F5B /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C08B61A5D90B300FB6F5B /* Table.swift */; };
+		EF60871D1C28F7F500CBF886 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60871C1C28F7F500CBF886 /* Button.swift */; };
+		EF65C0941A5B8B660045584D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65C0931A5B8B660045584D /* AppDelegate.swift */; };
+		EF65C0961A5B8B660045584D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF65C0951A5B8B660045584D /* Images.xcassets */; };
+		EF65C0991A5B8B660045584D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF65C0971A5B8B660045584D /* MainMenu.xib */; };
+		EF65C0A51A5B8B660045584D /* Central_ScoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65C0A41A5B8B660045584D /* Central_ScoutTests.swift */; };
+		EF65C0B91A5C16FF0045584D /* Peripherals.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65C0B81A5C16FF0045584D /* Peripherals.swift */; };
+		EF8BEACA1C4A9D7D00B17FCA /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BEAC91C4A9D7D00B17FCA /* CellView.swift */; };
+		EF93676C1C754A2A0037F4EE /* SqlMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF93676B1C754A2A0037F4EE /* SqlMain.swift */; };
+		EFA47B8A1A82ECD300A54959 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA47B891A82ECD300A54959 /* TabView.swift */; };
+		EFA52D5E1A828A63007F19D1 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA52D5D1A828A63007F19D1 /* TextField.swift */; };
+		EFB11CBE1A6034F300FDFBEF /* BluetoothCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB11CBD1A6034F300FDFBEF /* BluetoothCentral.swift */; };
+		EFB11CC21A60378300FDFBEF /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB11CC11A60378300FDFBEF /* Function.swift */; };
+		EFB7776E1D14D0DF00230964 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7776D1D14D0DF00230964 /* Extension.swift */; };
+		EFC0A86D1CA0B7830038F4A3 /* config.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFC0A86C1CA0B7830038F4A3 /* config.txt */; };
+		EFC0A86E1CA0BB290038F4A3 /* Scout.jar in Resources */ = {isa = PBXBuildFile; fileRef = EFC0A86A1CA0B77C0038F4A3 /* Scout.jar */; };
+		EFEC70E51C77904600D28EDC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEC70E41C77904600D28EDC /* libsqlite3.tbd */; };
+		EFF060381A5CB17D00102044 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF060371A5CB17D00102044 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF65C09F1A5B8B660045584D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF65C0861A5B8B660045584D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF65C08D1A5B8B660045584D;
+			remoteInfo = "Central Scout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF0A68131A7B2D2D004FEAB5 /* NSTimer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Block.h"; path = "../NSTimer+Block.h"; sourceTree = "<group>"; };
+		EF0A68141A7B2D2D004FEAB5 /* NSTimer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Block.m"; path = "../NSTimer+Block.m"; sourceTree = "<group>"; };
+		EF2C08B61A5D90B300FB6F5B /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		EF60871C1C28F7F500CBF886 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		EF65C08E1A5B8B660045584D /* Central Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Central Scout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF65C0921A5B8B660045584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF65C0931A5B8B660045584D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF65C0951A5B8B660045584D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF65C0981A5B8B660045584D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EF65C09E1A5B8B660045584D /* Central ScoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Central ScoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF65C0A31A5B8B660045584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF65C0A41A5B8B660045584D /* Central_ScoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Central_ScoutTests.swift; sourceTree = "<group>"; };
+		EF65C0B81A5C16FF0045584D /* Peripherals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peripherals.swift; sourceTree = "<group>"; };
+		EF8BEAC91C4A9D7D00B17FCA /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		EF93676B1C754A2A0037F4EE /* SqlMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqlMain.swift; sourceTree = "<group>"; };
+		EFA47B891A82ECD300A54959 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		EFA52D5D1A828A63007F19D1 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		EFB11CBD1A6034F300FDFBEF /* BluetoothCentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothCentral.swift; sourceTree = "<group>"; };
+		EFB11CC11A60378300FDFBEF /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		EFB7776D1D14D0DF00230964 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EFC0A86A1CA0B77C0038F4A3 /* Scout.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = Scout.jar; sourceTree = "<group>"; };
+		EFC0A86C1CA0B7830038F4A3 /* config.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.txt; sourceTree = "<group>"; };
+		EFCA84441A5D757E0040FB64 /* Central Scout-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Central Scout-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFEC70E41C77904600D28EDC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EFF060371A5CB17D00102044 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF65C08B1A5B8B660045584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEC70E51C77904600D28EDC /* libsqlite3.tbd in Frameworks */,
+				EFF060381A5CB17D00102044 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF65C09B1A5B8B660045584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2C08B81A5D90B800FB6F5B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				EF65C0931A5B8B660045584D /* AppDelegate.swift */,
+				EF65C0971A5B8B660045584D /* MainMenu.xib */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		EF65C0851A5B8B660045584D = {
+			isa = PBXGroup;
+			children = (
+				EFEC70E41C77904600D28EDC /* libsqlite3.tbd */,
+				EFF060371A5CB17D00102044 /* CoreBluetooth.framework */,
+				EF65C0901A5B8B660045584D /* Central Scout */,
+				EF65C0A11A5B8B660045584D /* Central ScoutTests */,
+				EF65C08F1A5B8B660045584D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF65C08F1A5B8B660045584D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF65C08E1A5B8B660045584D /* Central Scout.app */,
+				EF65C09E1A5B8B660045584D /* Central ScoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF65C0901A5B8B660045584D /* Central Scout */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0A8691CA0B7660038F4A3 /* resources */,
+				EF93676D1C754A2D0037F4EE /* database */,
+				EFB11CC01A60376D00FDFBEF /* utilities */,
+				EFB11CBF1A6036A400FDFBEF /* extension */,
+				EFC2EC681A5D927900D202A0 /* bluetooth */,
+				EF2C08B81A5D90B800FB6F5B /* core */,
+				EFCA84481A5D75830040FB64 /* objc */,
+				EF65C0911A5B8B660045584D /* Supporting Files */,
+			);
+			path = "Central Scout";
+			sourceTree = "<group>";
+		};
+		EF65C0911A5B8B660045584D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF65C0921A5B8B660045584D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF65C0A11A5B8B660045584D /* Central ScoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF65C0A41A5B8B660045584D /* Central_ScoutTests.swift */,
+				EF65C0A21A5B8B660045584D /* Supporting Files */,
+			);
+			path = "Central ScoutTests";
+			sourceTree = "<group>";
+		};
+		EF65C0A21A5B8B660045584D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF65C0A31A5B8B660045584D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF93676D1C754A2D0037F4EE /* database */ = {
+			isa = PBXGroup;
+			children = (
+				EF93676B1C754A2A0037F4EE /* SqlMain.swift */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		EFB11CBF1A6036A400FDFBEF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF2C08B61A5D90B300FB6F5B /* Table.swift */,
+				EF8BEAC91C4A9D7D00B17FCA /* CellView.swift */,
+				EFA52D5D1A828A63007F19D1 /* TextField.swift */,
+				EFA47B891A82ECD300A54959 /* TabView.swift */,
+				EF60871C1C28F7F500CBF886 /* Button.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		EFB11CC01A60376D00FDFBEF /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EFB11CC11A60378300FDFBEF /* Function.swift */,
+				EFB7776D1D14D0DF00230964 /* Extension.swift */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		EFC0A8691CA0B7660038F4A3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF65C0951A5B8B660045584D /* Images.xcassets */,
+				EFC0A86A1CA0B77C0038F4A3 /* Scout.jar */,
+				EFC0A86C1CA0B7830038F4A3 /* config.txt */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		EFC2EC681A5D927900D202A0 /* bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				EFB11CBD1A6034F300FDFBEF /* BluetoothCentral.swift */,
+				EF65C0B81A5C16FF0045584D /* Peripherals.swift */,
+			);
+			name = bluetooth;
+			sourceTree = "<group>";
+		};
+		EFCA84481A5D75830040FB64 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				EF0A68131A7B2D2D004FEAB5 /* NSTimer+Block.h */,
+				EF0A68141A7B2D2D004FEAB5 /* NSTimer+Block.m */,
+				EFCA84441A5D757E0040FB64 /* Central Scout-Bridging-Header.h */,
+			);
+			name = objc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF65C08D1A5B8B660045584D /* Central Scout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF65C0A81A5B8B660045584D /* Build configuration list for PBXNativeTarget "Central Scout" */;
+			buildPhases = (
+				EF65C08A1A5B8B660045584D /* Sources */,
+				EF65C08B1A5B8B660045584D /* Frameworks */,
+				EF65C08C1A5B8B660045584D /* Resources */,
+				50524F424C454D533F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Central Scout";
+			productName = "Central Scout";
+			productReference = EF65C08E1A5B8B660045584D /* Central Scout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF65C09D1A5B8B660045584D /* Central ScoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF65C0AB1A5B8B660045584D /* Build configuration list for PBXNativeTarget "Central ScoutTests" */;
+			buildPhases = (
+				EF65C09A1A5B8B660045584D /* Sources */,
+				EF65C09B1A5B8B660045584D /* Frameworks */,
+				EF65C09C1A5B8B660045584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF65C0A01A5B8B660045584D /* PBXTargetDependency */,
+			);
+			name = "Central ScoutTests";
+			productName = "Central ScoutTests";
+			productReference = EF65C09E1A5B8B660045584D /* Central ScoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF65C0861A5B8B660045584D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alex DeMeo";
+				TargetAttributes = {
+					EF65C08D1A5B8B660045584D = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
+					};
+					EF65C09D1A5B8B660045584D = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = EF65C08D1A5B8B660045584D;
+					};
+				};
+			};
+			buildConfigurationList = EF65C0891A5B8B660045584D /* Build configuration list for PBXProject "Central Scout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF65C0851A5B8B660045584D;
+			productRefGroup = EF65C08F1A5B8B660045584D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF65C08D1A5B8B660045584D /* Central Scout */,
+				EF65C09D1A5B8B660045584D /* Central ScoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF65C08C1A5B8B660045584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC0A86E1CA0BB290038F4A3 /* Scout.jar in Resources */,
+				EF65C0961A5B8B660045584D /* Images.xcassets in Resources */,
+				EFC0A86D1CA0B7830038F4A3 /* config.txt in Resources */,
+				EF65C0991A5B8B660045584D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF65C09C1A5B8B660045584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF65C08A1A5B8B660045584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8BEACA1C4A9D7D00B17FCA /* CellView.swift in Sources */,
+				EFA47B8A1A82ECD300A54959 /* TabView.swift in Sources */,
+				EF2C08B71A5D90B300FB6F5B /* Table.swift in Sources */,
+				EFB7776E1D14D0DF00230964 /* Extension.swift in Sources */,
+				EFA52D5E1A828A63007F19D1 /* TextField.swift in Sources */,
+				EF93676C1C754A2A0037F4EE /* SqlMain.swift in Sources */,
+				EF0A68151A7B2D2D004FEAB5 /* NSTimer+Block.m in Sources */,
+				EFB11CC21A60378300FDFBEF /* Function.swift in Sources */,
+				EF65C0941A5B8B660045584D /* AppDelegate.swift in Sources */,
+				EF65C0B91A5C16FF0045584D /* Peripherals.swift in Sources */,
+				EFB11CBE1A6034F300FDFBEF /* BluetoothCentral.swift in Sources */,
+				EF60871D1C28F7F500CBF886 /* Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF65C09A1A5B8B660045584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF65C0A51A5B8B660045584D /* Central_ScoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF65C0A01A5B8B660045584D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF65C08D1A5B8B660045584D /* Central Scout */;
+			targetProxy = EF65C09F1A5B8B660045584D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF65C0971A5B8B660045584D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF65C0981A5B8B660045584D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF65C0A61A5B8B660045584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF65C0A71A5B8B660045584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF65C0A91A5B8B660045584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Central Scout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xhs4557.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Central Scout/Central Scout-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF65C0AA1A5B8B660045584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Central Scout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xhs4557.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Central Scout/Central Scout-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF65C0AC1A5B8B660045584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Central ScoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xhs4557.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Central Scout.app/Contents/MacOS/Central Scout";
+			};
+			name = Debug;
+		};
+		EF65C0AD1A5B8B660045584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Central ScoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xhs4557.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Central Scout.app/Contents/MacOS/Central Scout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF65C0891A5B8B660045584D /* Build configuration list for PBXProject "Central Scout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF65C0A61A5B8B660045584D /* Debug */,
+				EF65C0A71A5B8B660045584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF65C0A81A5B8B660045584D /* Build configuration list for PBXNativeTarget "Central Scout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF65C0A91A5B8B660045584D /* Debug */,
+				EF65C0AA1A5B8B660045584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF65C0AB1A5B8B660045584D /* Build configuration list for PBXNativeTarget "Central ScoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF65C0AC1A5B8B660045584D /* Debug */,
+				EF65C0AD1A5B8B660045584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF65C0861A5B8B660045584D /* Project object */;
+}
